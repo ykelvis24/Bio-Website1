@@ -1,0 +1,173 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background-color: #f5fbfd;
+  color: #333;
+}
+
+header {
+  background: rgba(238, 97, 97, 0.9);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  color: #fff;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 27px;
+  font-weight: 600;
+  color: #0077b6;
+  display: flex;
+  align-items: center;
+}
+
+.logo i {
+  color: #fff;
+  margin-right: 8px;
+}
+
+.logo span {
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  transition: all 0.3s ease-in;
+}
+
+nav ul li a:hover {
+  transform: scale(1.2);
+  color: #0077b6;
+}
+
+nav ul li a.active {
+  text-decoration: underline;
+  color: #0077b6;
+}
+
+.searchbar {
+  display: flex;
+  align-items: center;
+  background: #f1f1f1;
+  border-radius: 25px;
+  padding: 5px 10px;
+}
+
+.searchbar input {
+  border: none;
+  background: transparent;
+  padding: 8px;
+  outline: none;
+}
+
+.searchbar button {
+  border: none;
+  background: #0077b6;
+  color: white;
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.searchbar button:hover {
+  background: #005f87;
+}
+
+.hero {
+  text-align: center;
+  background: linear-gradient(rgba(0, 119, 182, 0.7), rgba(0, 119, 182, 0.7)),
+    url("images/stet.jpg") center/cover no-repeat;
+  color: #fff;
+  padding: 100px 20px;
+}
+
+.contact-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 60px 40px;
+  gap: 40px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.info-box {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.info-box i {
+  font-size: 30px;
+  color: #0077b6;
+  margin-bottom: 10px;
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+  color: #0077b6;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #0077b6;
+  border-radius: 8px;
+  outline: none;
+}
+
+.submit-btn {
+  padding: 12px;
+  background: #ee6161;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background: #d84d4d;
+}
+
+.map iframe {
+  width: 100%;
+  height: 350px;
+  border: 0;
+}
+
+footer {
+  text-align: center;
+  background: rgba(238, 97, 97, 0.9);
+  color: #fff;
+  padding: 15px;
+}

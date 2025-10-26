@@ -1,0 +1,240 @@
+:root {
+  --primary: #0077b6;
+  --white: #fff;
+  --accent: rgba(238, 97, 97, 0.9);
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #f5fbfd;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  top: 0;
+  background: var(--accent);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  color: #fff;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 27px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.logo i {
+  color: #fff;
+  margin-right: 8px;
+}
+
+.logo span {
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  transform: scale(1.2);
+  color: var(--primary);
+}
+
+.active {
+    text-decoration: underline;
+    color: #0077b6;
+}
+
+.searchbar {
+  display: flex;
+  align-items: center;
+  background: #f1f1f1;
+  border-radius: 25px;
+  padding: 5px 10px;
+  margin-left: 20px;
+}
+
+.searchbar input {
+  border: none;
+  background: transparent;
+  padding: 8px;
+  outline: none;
+}
+
+.searchbar button {
+  border: none;
+  background: var(--primary);
+  color: white;
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.searchbar button:hover {
+  background: #005f87;
+}
+
+.middle {
+  background: linear-gradient(rgba(0, 119, 182, 0.7), rgba(0, 119, 182, 0.7)),
+              url('images/hospital.jpg') center/cover no-repeat;
+  color: var(--white);
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.middle h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.middle p {
+  font-size: 18px;
+}
+
+.services {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: var(--primary);
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.service-box {
+  background-color: var(--white);
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.service-box i {
+  font-size: 35px;
+  color: var(--primary);
+  margin-bottom: 15px;
+}
+
+.service-box h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.service-box p {
+  font-size: 15px;
+  color: #555;
+}
+
+.service-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 5px 20px rgba(0, 119, 182, 0.2);
+}
+
+.appointment {
+  background: #e6f7ff;
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.appointment h2 {
+  font-size: 32px;
+  color: var(--primary);
+}
+
+.appointment p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.appointment-form {
+  max-width: 800px;
+  margin: 0 auto;
+  background: var(--white);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 119, 182, 0.15);
+}
+
+.form-group {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.appointment-form input,
+.appointment-form select,
+.appointment-form textarea {
+  flex: 1;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  outline: none;
+}
+
+.appointment-form textarea {
+  width: 100%;
+  height: 100px;
+  resize: none;
+}
+
+.appointment-form input:focus,
+.appointment-form select:focus,
+.appointment-form textarea:focus {
+  border-color: var(--primary);
+}
+
+.btn {
+  background: var(--primary);
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #005f87;
+}
+
+footer {
+  text-align: center;
+  background: var(--accent);
+  color: white;
+  padding: 15px;
+  font-size: 0.9em;
+}
