@@ -1,194 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MedCare | Our Doctors</title>
-  <link rel="stylesheet" href="doctor.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MedCare | Our Doctors</title>
+    <link rel="stylesheet" href="doctor.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <i class="fa-solid fa-staff-snake"></i>Med<span>Care</span>
+      </div>
 
-  <header>
-    <div class="logo">
-      <i class="fa-solid fa-staff-snake"></i>Med<span>Care</span>
-    </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="service.html">Services</a></li>
+          <li><a href="doctor.html" class="active">Doctors</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
 
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="service.html">Services</a></li>
-        <li><a href="doctor.html" class="active">Doctors</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+      <div class="searchbar">
+        <input type="text" placeholder="Search..." />
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+    </header>
 
-    <div class="searchbar">
-      <input type="text" placeholder="Search..." />
-      <button><i class="fa-solid fa-magnifying-glass"></i></button>
-    </div>
-  </header>
+    <section class="hero">
+      <h1>Meet Our Expert Doctors</h1>
+      <p>
+        Experienced, compassionate, and dedicated to your health and well-being.
+      </p>
+    </section>
 
-  <section class="hero">
-    <h1>Meet Our Expert Doctors</h1>
-    <p>Experienced, compassionate, and dedicated to your health and well-being.</p>
-  </section>
+    <section class="doctors">
+      <h2>Our Medical Team</h2>
+      <div class="doctor-grid">
+        <div class="doctor-card">
+          <img src="images/cardiologist2.jpeg" alt="Dr. Sarah Johnson" />
+          <h3>Dr. Sarah Johnson</h3>
+          <p>Cardiologist</p>
+          <div class="socials">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+          <button class="btn view-btn" data-modal="modal1">View Profile</button>
+          <button class="btn book-btn">Book Appointment</button>
+        </div>
 
-  <section class="doctors">
-    <h2>Our Medical Team</h2>
-    <div class="doctor-grid">
+        <div class="doctor-card">
+          <img src="images/radiologist.webp" alt="Dr. Michael Lee" />
+          <h3>Dr. Michael Lee</h3>
+          <p>Radiologist</p>
+          <div class="socials">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+          <button class="btn view-btn" data-modal="modal2">View Profile</button>
+          <button class="btn book-btn">Book Appointment</button>
+        </div>
 
-      <div class="doctor-card">
-        <img src="images/cardiologist2.jpeg" alt="Dr. Sarah Johnson" />
+        <div class="doctor-card">
+          <img src="images/neurologist.jpg" alt="Dr. Emily Brown" />
+          <h3>Dr. Emily Brown</h3>
+          <p>Neurologist</p>
+          <div class="socials">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+          <button class="btn view-btn" data-modal="modal3">View Profile</button>
+          <button class="btn book-btn">Book Appointment</button>
+        </div>
+
+        <div class="doctor-card">
+          <img src="images/pediatrician.webp" alt="Dr. James Smith" />
+          <h3>Dr. James Smith</h3>
+          <p>Pediatrician</p>
+          <div class="socials">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+          <button class="btn view-btn" data-modal="modal4">View Profile</button>
+          <button class="btn book-btn">Book Appointment</button>
+        </div>
+
+        <div class="doctor-card">
+          <img src="images/surgeon.jpg" alt="Dr. Robert Wilson" />
+          <h3>Dr. Robert Wilson</h3>
+          <p>Surgeon</p>
+          <div class="socials">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+          <button class="btn view-btn" data-modal="modal5">View Profile</button>
+          <button class="btn book-btn">Book Appointment</button>
+        </div>
+
+        <div class="doctor-card">
+          <img src="images/dermatologist.jpg" alt="Dr. Alicia Green" />
+          <h3>Dr. Alicia Green</h3>
+          <p>Dermatologist</p>
+          <div class="socials">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+          <button class="btn view-btn" data-modal="modal6">View Profile</button>
+          <button class="btn book-btn">Book Appointment</button>
+        </div>
+
+        <div class="doctor-card">
+          <img src="images/dentist.jpg" alt="Dr. Richard Clark" />
+          <h3>Dr. Richard Clark</h3>
+          <p>Dentist</p>
+          <div class="socials">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+          <button class="btn view-btn" data-modal="modal7">View Profile</button>
+          <button class="btn book-btn">Book Appointment</button>
+        </div>
+
+        <div class="doctor-card">
+          <img src="images/gynecologist.jpg" alt="Dr. Olivia Martinez" />
+          <h3>Dr. Olivia Martinez</h3>
+          <p>Gynecologist</p>
+          <div class="socials">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+          <button class="btn view-btn" data-modal="modal8">View Profile</button>
+          <button class="btn book-btn">Book Appointment</button>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 MedCare. All rights reserved.</p>
+    </footer>
+
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
         <h3>Dr. Sarah Johnson</h3>
-        <p>Cardiologist</p>
-        <div class="socials">
-          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="#"><i class="fa-brands fa-twitter"></i></a>
-          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-        </div>
-        <button class="btn view-btn" data-modal="modal1">View Profile</button>
-        <button class="btn book-btn">Book Appointment</button>
+        <p><strong>Specialization:</strong> Cardiology</p>
+        <p>
+          Dr. Sarah has over 15 years of experience in cardiovascular medicine.
+          Passionate about preventive health.
+        </p>
+        <p><strong>Email:</strong> sarah.johnson@medcare.com</p>
       </div>
-
-      <div class="doctor-card">
-        <img src="images/radiologist.webp" alt="Dr. Michael Lee" />
-        <h3>Dr. Michael Lee</h3>
-        <p>Radiologist</p>
-        <div class="socials">
-          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="#"><i class="fa-brands fa-twitter"></i></a>
-          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-        </div>
-        <button class="btn view-btn" data-modal="modal2">View Profile</button>
-        <button class="btn book-btn">Book Appointment</button>
-      </div>
-
-      <div class="doctor-card">
-        <img src="images/neurologist.jpg" alt="Dr. Emily Brown" />
-        <h3>Dr. Emily Brown</h3>
-        <p>Neurologist</p>
-        <div class="socials">
-          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="#"><i class="fa-brands fa-twitter"></i></a>
-          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-        </div>
-        <button class="btn view-btn" data-modal="modal3">View Profile</button>
-        <button class="btn book-btn">Book Appointment</button>
-      </div>
-
-      <div class="doctor-card">
-        <img src="images/pediatrician.webp" alt="Dr. James Smith" />
-        <h3>Dr. James Smith</h3>
-        <p>Pediatrician</p>
-        <div class="socials">
-          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="#"><i class="fa-brands fa-twitter"></i></a>
-          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-        </div>
-        <button class="btn view-btn" data-modal="modal4">View Profile</button>
-        <button class="btn book-btn">Book Appointment</button>
-      </div>
-
-      <div class="doctor-card">
-        <img src="images/surgeon.jpg" alt="Dr. Robert Wilson" />
-        <h3>Dr. Robert Wilson</h3>
-        <p>Surgeon</p>
-        <div class="socials">
-          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="#"><i class="fa-brands fa-twitter"></i></a>
-          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-        </div>
-        <button class="btn view-btn" data-modal="modal5">View Profile</button>
-        <button class="btn book-btn">Book Appointment</button>
-      </div>
-
-      <div class="doctor-card">
-        <img src="images/dermatologist.jpg" alt="Dr. Alicia Green" />
-        <h3>Dr. Alicia Green</h3>
-        <p>Dermatologist</p>
-        <div class="socials">
-          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="#"><i class="fa-brands fa-twitter"></i></a>
-          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-        </div>
-        <button class="btn view-btn" data-modal="modal6">View Profile</button>
-        <button class="btn book-btn">Book Appointment</button>
-      </div>
-
-      <div class="doctor-card">
-        <img src="images/dentist.jpg" alt="Dr. Richard Clark" />
-        <h3>Dr. Richard Clark</h3>
-        <p>Dentist</p>
-        <div class="socials">
-          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="#"><i class="fa-brands fa-twitter"></i></a>
-          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-        </div>
-        <button class="btn view-btn" data-modal="modal7">View Profile</button>
-        <button class="btn book-btn">Book Appointment</button>
-      </div>
-
-      <div class="doctor-card">
-        <img src="images/gynecologist.jpg" alt="Dr. Olivia Martinez" />
-        <h3>Dr. Olivia Martinez</h3>
-        <p>Gynecologist</p>
-        <div class="socials">
-          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="#"><i class="fa-brands fa-twitter"></i></a>
-          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-        </div>
-        <button class="btn view-btn" data-modal="modal8">View Profile</button>
-        <button class="btn book-btn">Book Appointment</button>
-      </div>
-
     </div>
-  </section>
 
-  <footer>
-    <p>© 2025 MedCare. All rights reserved.</p>
-  </footer>
+    <div id="modal2" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3>Dr. Michael Lee</h3>
+        <p><strong>Specialization:</strong> Radiology</p>
+        <p>Expert in imaging and diagnostics.</p>
+        <p><strong>Email:</strong> michael.lee@medcare.com</p>
+      </div>
+    </div>
 
-  <div id="modal1" class="modal"><div class="modal-content"><span class="close">&times;</span><h3>Dr. Sarah Johnson</h3><p><strong>Specialization:</strong> Cardiology</p><p>Dr. Sarah has over 15 years of experience in cardiovascular medicine. Passionate about preventive health.</p><p><strong>Email:</strong> sarah.johnson@medcare.com</p></div></div>
+    <div id="modal3" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3>Dr. Emily Brown</h3>
+        <p><strong>Specialization:</strong> Neurology</p>
+        <p>Focused on advanced treatments for the nervous system.</p>
+        <p><strong>Email:</strong> emily.brown@medcare.com</p>
+      </div>
+    </div>
 
-  <div id="modal2" class="modal"><div class="modal-content"><span class="close">&times;</span><h3>Dr. Michael Lee</h3><p><strong>Specialization:</strong> Radiology</p><p>Expert in imaging and diagnostics.</p><p><strong>Email:</strong> michael.lee@medcare.com</p></div></div>
+    <div id="modal4" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3>Dr. James Smith</h3>
+        <p><strong>Specialization:</strong> Pediatrics</p>
+        <p>Gentle and trusted child care.</p>
+        <p><strong>Email:</strong> james.smith@medcare.com</p>
+      </div>
+    </div>
 
-  <div id="modal3" class="modal"><div class="modal-content"><span class="close">&times;</span><h3>Dr. Emily Brown</h3><p><strong>Specialization:</strong> Neurology</p><p>Focused on advanced treatments for the nervous system.</p><p><strong>Email:</strong> emily.brown@medcare.com</p></div></div>
+    <div id="modal5" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3>Dr. Robert Wilson</h3>
+        <p><strong>Specialization:</strong> Surgery</p>
+        <p>Highly skilled in complex surgical operations.</p>
+        <p><strong>Email:</strong> robert.wilson@medcare.com</p>
+      </div>
+    </div>
 
-  <div id="modal4" class="modal"><div class="modal-content"><span class="close">&times;</span><h3>Dr. James Smith</h3><p><strong>Specialization:</strong> Pediatrics</p><p>Gentle and trusted child care.</p><p><strong>Email:</strong> james.smith@medcare.com</p></div></div>
+    <div id="modal6" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3>Dr. Alicia Green</h3>
+        <p><strong>Specialization:</strong> Dermatology</p>
+        <p>Skin health specialist with years of expertise.</p>
+        <p><strong>Email:</strong> alicia.green@medcare.com</p>
+      </div>
+    </div>
 
-  <div id="modal5" class="modal"><div class="modal-content"><span class="close">&times;</span><h3>Dr. Robert Wilson</h3><p><strong>Specialization:</strong> Surgery</p><p>Highly skilled in complex surgical operations.</p><p><strong>Email:</strong> robert.wilson@medcare.com</p></div></div>
+    <div id="modal7" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3>Dr. Richard Clark</h3>
+        <p><strong>Specialization:</strong> Dentistry</p>
+        <p>Providing top-quality dental treatment and cosmetic care.</p>
+        <p><strong>Email:</strong> richard.clark@medcare.com</p>
+      </div>
+    </div>
 
-  <div id="modal6" class="modal"><div class="modal-content"><span class="close">&times;</span><h3>Dr. Alicia Green</h3><p><strong>Specialization:</strong> Dermatology</p><p>Skin health specialist with years of expertise.</p><p><strong>Email:</strong> alicia.green@medcare.com</p></div></div>
+    <div id="modal8" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3>Dr. Olivia Martinez</h3>
+        <p><strong>Specialization:</strong> Gynecology</p>
+        <p>Women’s health expert dedicated to patient support.</p>
+        <p><strong>Email:</strong> olivia.martinez@medcare.com</p>
+      </div>
+    </div>
 
-  <div id="modal7" class="modal"><div class="modal-content"><span class="close">&times;</span><h3>Dr. Richard Clark</h3><p><strong>Specialization:</strong> Dentistry</p><p>Providing top-quality dental treatment and cosmetic care.</p><p><strong>Email:</strong> richard.clark@medcare.com</p></div></div>
+    <script>
+      const viewButtons = document.querySelectorAll(".view-btn");
+      const modals = document.querySelectorAll(".modal");
+      const closes = document.querySelectorAll(".close");
 
-  <div id="modal8" class="modal"><div class="modal-content"><span class="close">&times;</span><h3>Dr. Olivia Martinez</h3><p><strong>Specialization:</strong> Gynecology</p><p>Women’s health expert dedicated to patient support.</p><p><strong>Email:</strong> olivia.martinez@medcare.com</p></div></div>
-
-  <script>
-    const viewButtons = document.querySelectorAll(".view-btn");
-    const modals = document.querySelectorAll(".modal");
-    const closes = document.querySelectorAll(".close");
-
-    viewButtons.forEach(btn => {
-      btn.addEventListener("click", () => {
-        document.getElementById(btn.dataset.modal).style.display = "flex";
+      viewButtons.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          document.getElementById(btn.dataset.modal).style.display = "flex";
+        });
       });
-    });
 
-    closes.forEach(close => {
-      close.addEventListener("click", () => {
-        close.closest(".modal").style.display = "none";
+      closes.forEach((close) => {
+        close.addEventListener("click", () => {
+          close.closest(".modal").style.display = "none";
+        });
       });
-    });
 
-    window.addEventListener("click", e => {
-      modals.forEach(modal => {
-        if (e.target === modal) modal.style.display = "none";
+      window.addEventListener("click", (e) => {
+        modals.forEach((modal) => {
+          if (e.target === modal) modal.style.display = "none";
+        });
       });
-    });
-  </script>
-
-</body>
+    </script>
+  </body>
 </html>

@@ -1,209 +1,208 @@
 body {
-    font-family: sans-serif;
-    margin: 0;
-    background-color: #f5fbfd;
-    color: #333;
-    line-height: 1.6;
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #f5fbfd;
+  color: #333;
+  line-height: 1.6;
 }
 
 header {
-    top: 0;
-    background: rgba(238, 97, 97, 0.9);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 40px;
-    color: #fff;
-    flex-wrap: wrap;
+  top: 0;
+  background: rgba(238, 97, 97, 0.9);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  color: #fff;
+  flex-wrap: wrap;
 }
 
 .logo {
-    font-size: 27px;
-    font-weight: 600;
-    color: #0077b6;
-    display: flex;
-    align-items: center;
+  font-size: 27px;
+  font-weight: 600;
+  color: #0077b6;
+  display: flex;
+  align-items: center;
 }
 
 .logo i {
-    color: #fff;
-    margin-right: 8px;
+  color: #fff;
+  margin-right: 8px;
 }
 
 .logo span {
-    color: #fff;
+  color: #fff;
 }
 
 nav ul {
-    list-style: none;
-    display: flex;
-    gap: 40px;
+  list-style: none;
+  display: flex;
+  gap: 40px;
 }
 
 nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 500;
-    transition: all 0.3s ease-in, color 0.3s ease;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  transition: all 0.3s ease-in, color 0.3s ease;
 }
 
 nav ul li a:hover {
-    transform: scale(1.6);
-    color: #0077b6;
-    opacity: 0.9;
+  transform: scale(1.6);
+  color: #0077b6;
+  opacity: 0.9;
 }
 
 .active {
-    text-decoration: underline;
-    color: #0077b6;
+  text-decoration: underline;
+  color: #0077b6;
 }
 
 .searchbar {
-    display: flex;
-    align-items: center;
-    background: #f1f1f1;
-    border-radius: 25px;
-    padding: 5px 10px;
-    margin-left: 20px;
+  display: flex;
+  align-items: center;
+  background: #f1f1f1;
+  border-radius: 25px;
+  padding: 5px 10px;
+  margin-left: 20px;
 }
 
-
 .searchbar input {
-    border: none;
-    background: transparent;
-    padding: 8px;
-    outline: none;
+  border: none;
+  background: transparent;
+  padding: 8px;
+  outline: none;
 }
 
 .searchbar button {
-    border: none;
-    background: #0077b6;
-    color: white;
-    border-radius: 50%;
-    height: 32px;
-    width: 32px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 0.3s;
+  border: none;
+  background: #0077b6;
+  color: white;
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
 }
 
 .searchbar button:hover {
-    background: #005f87;
+  background: #005f87;
 }
 
 .middle {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 70px 60px;
-    background: linear-gradient(135deg, #e0f7fa, #ffffff);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 70px 60px;
+  background: linear-gradient(135deg, #e0f7fa, #ffffff);
 }
 
 .middle1 {
-    max-width: 50%;
+  max-width: 50%;
 }
 
 .middle1 h1 {
-    font-size: 2.8em;
-    color: #023e8a;
-    margin-bottom: 20px;
+  font-size: 2.8em;
+  color: #023e8a;
+  margin-bottom: 20px;
 }
 
 .middle1 p {
-    margin-bottom: 30px;
-    font-size: 1.1em;
+  margin-bottom: 30px;
+  font-size: 1.1em;
 }
 
 .middleimg img {
-    width: 450px;
+  width: 450px;
 }
 
 .btn {
-    background: #0077b6;
-    color: white;
-    padding: 12px 25px;
-    border-radius: 30px;
-    text-decoration: none;
-    font-weight: 500;
-    transition: 0.3s;
+  background: #0077b6;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
 }
 
 .btn:hover {
-    background: #005f87;
+  background: #005f87;
 }
 
 .achievements {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 50px 20px;
-    background: #0077b6;
-    color: white;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 20px;
+  background: #0077b6;
+  color: white;
+  flex-wrap: wrap;
 }
 
 .achievements .stat {
-    margin: 15px;
+  margin: 15px;
 }
 
 .achievements i {
-    font-size: 2.5em;
-    margin-bottom: 10px;
+  font-size: 2.5em;
+  margin-bottom: 10px;
 }
 
 .achievements h3 {
-    font-size: 1.8em;
-    margin: 0;
+  font-size: 1.8em;
+  margin: 0;
 }
 
 .bottom {
-    text-align: center;
-    background: #e0f7fa;
-    padding: 70px 20px;
+  text-align: center;
+  background: #e0f7fa;
+  padding: 70px 20px;
 }
 
 .bottom h2 {
-    color: #023e8a;
-    font-size: 2em;
+  color: #023e8a;
+  font-size: 2em;
 }
 
 .bottom p {
-    margin: 15px auto 30px;
-    max-width: 600px;
+  margin: 15px auto 30px;
+  max-width: 600px;
 }
 
 footer {
-    text-align: center;
-    background: rgba(238, 97, 97, 0.9);
-    color: white;
-    padding: 15px;
-    font-size: 0.9em;
+  text-align: center;
+  background: rgba(238, 97, 97, 0.9);
+  color: white;
+  padding: 15px;
+  font-size: 0.9em;
 }
 
-@media(max-width: 900px){
-    header {
-        flex-direction: column;
-        text-align: center;
-        gap: 10px;
-    }
+@media (max-width: 900px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
 
-    nav ul {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 15px;
-    }
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
 
-    .searchbar {
-        width: 90%;
-        justify-content: center;
-        margin-top: 10px;
-    }
+  .searchbar {
+    width: 90%;
+    justify-content: center;
+    margin-top: 10px;
+  }
 
-    .searchbar input {
-        width: 80%;
-        text-align: center;
-    }
+  .searchbar input {
+    width: 80%;
+    text-align: center;
+  }
 }

@@ -59,8 +59,8 @@ nav ul li a:hover {
 }
 
 .active {
-    text-decoration: underline;
-    color: #0077b6;
+  text-decoration: underline;
+  color: #0077b6;
 }
 
 .searchbar {
@@ -99,7 +99,7 @@ nav ul li a:hover {
 
 .middle {
   background: linear-gradient(rgba(0, 119, 182, 0.7), rgba(0, 119, 182, 0.7)),
-              url('images/hospital.jpg') center/cover no-repeat;
+    url("images/hospital.jpg") center/cover no-repeat;
   color: var(--white);
   text-align: center;
   padding: 100px 20px;
