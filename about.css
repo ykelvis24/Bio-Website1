@@ -267,3 +267,61 @@ footer {
   padding: 15px;
   font-size: 0.9em;
 }
+
+@media (max-width: 900px) {
+  header {
+    padding: 15px 20px;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .mission-vision .container {
+    flex-direction: column;
+    padding: 50px 5%;
+  }
+
+  .why-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .history-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .history-content img {
+    width: 80%;
+  }
+
+  .history-text {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .why-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonial-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-content h1 {
+    font-size: 28px;
+  }
+
+  .hero-content p {
+    font-size: 15px;
+  }
+
+  .searchbar {
+    width: 100%;
+    margin-top: 10px;
+    order: 3;
+  }
+}
